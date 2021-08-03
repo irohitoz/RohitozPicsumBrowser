@@ -1,0 +1,12 @@
+//
+//  Development.xcconfig
+//  Picsum Browser
+//
+//  Created by Hindavi Technologies on 03/08/21.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+EXCLUDED_ARCHS[sdk=iphonesimulator*] = arm64
+
+baseUrl = picsum.photos/list

@@ -3,27 +3,54 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		585D32C726B8F9B400C31F77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585D32C626B8F9B400C31F77 /* AppDelegate.swift */; };
 		585D32C926B8F9B400C31F77 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585D32C826B8F9B400C31F77 /* SceneDelegate.swift */; };
-		585D32CB26B8F9B400C31F77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585D32CA26B8F9B400C31F77 /* ViewController.swift */; };
+		585D32CB26B8F9B400C31F77 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585D32CA26B8F9B400C31F77 /* HomeViewController.swift */; };
 		585D32CE26B8F9B400C31F77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 585D32CC26B8F9B400C31F77 /* Main.storyboard */; };
 		585D32D026B8F9B700C31F77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 585D32CF26B8F9B700C31F77 /* Assets.xcassets */; };
 		585D32D326B8F9B700C31F77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 585D32D126B8F9B700C31F77 /* LaunchScreen.storyboard */; };
+		585D32DF26B9052300C31F77 /* PicsumCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585D32DD26B9052300C31F77 /* PicsumCollectionViewCell.swift */; };
+		585D32E026B9052300C31F77 /* PicsumCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 585D32DE26B9052300C31F77 /* PicsumCollectionViewCell.xib */; };
+		585D32E326B9078C00C31F77 /* PicsumDataBO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585D32E226B9078C00C31F77 /* PicsumDataBO.swift */; };
+		585D32E626B90E2A00C31F77 /* UICollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585D32E526B90E2A00C31F77 /* UICollectionViewCell.swift */; };
+		585D32F026B94AC700C31F77 /* APITaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585D32EF26B94AC700C31F77 /* APITaskManager.swift */; };
+		585D32F426B94B8B00C31F77 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585D32F326B94B8B00C31F77 /* Constants.swift */; };
+		585D32F726B94CDF00C31F77 /* Build Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585D32F626B94CDF00C31F77 /* Build Configuration.swift */; };
+		585D32FC26B9505400C31F77 /* PicsumDataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585D32FB26B9505400C31F77 /* PicsumDataRepository.swift */; };
+		585D32FE26B9506400C31F77 /* PicsumDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585D32FD26B9506400C31F77 /* PicsumDataService.swift */; };
+		585D330026B9507C00C31F77 /* PicsumDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585D32FF26B9507C00C31F77 /* PicsumDataViewModel.swift */; };
+		585D330226B958A400C31F77 /* Development.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 585D330126B958A400C31F77 /* Development.xcconfig */; };
+		D98BC7BB91D3039470DD6088 /* Pods_Picsum_Browser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B16EA56D4E8873489BFC7D39 /* Pods_Picsum_Browser.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		585D32C326B8F9B400C31F77 /* Picsum Browser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Picsum Browser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		585D32C626B8F9B400C31F77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		585D32C826B8F9B400C31F77 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		585D32CA26B8F9B400C31F77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		585D32CA26B8F9B400C31F77 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		585D32CD26B8F9B400C31F77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		585D32CF26B8F9B700C31F77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		585D32D226B8F9B700C31F77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		585D32D426B8F9B700C31F77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		585D32DD26B9052300C31F77 /* PicsumCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicsumCollectionViewCell.swift; sourceTree = "<group>"; };
+		585D32DE26B9052300C31F77 /* PicsumCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PicsumCollectionViewCell.xib; sourceTree = "<group>"; };
+		585D32E226B9078C00C31F77 /* PicsumDataBO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicsumDataBO.swift; sourceTree = "<group>"; };
+		585D32E526B90E2A00C31F77 /* UICollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewCell.swift; sourceTree = "<group>"; };
+		585D32EF26B94AC700C31F77 /* APITaskManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APITaskManager.swift; sourceTree = "<group>"; };
+		585D32F326B94B8B00C31F77 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		585D32F626B94CDF00C31F77 /* Build Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Build Configuration.swift"; sourceTree = "<group>"; };
+		585D32FB26B9505400C31F77 /* PicsumDataRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicsumDataRepository.swift; sourceTree = "<group>"; };
+		585D32FD26B9506400C31F77 /* PicsumDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicsumDataService.swift; sourceTree = "<group>"; };
+		585D32FF26B9507C00C31F77 /* PicsumDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicsumDataViewModel.swift; sourceTree = "<group>"; };
+		585D330126B958A400C31F77 /* Development.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Development.xcconfig; sourceTree = "<group>"; };
+		585D330326B9598000C31F77 /* Production.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Production.xcconfig; sourceTree = "<group>"; };
+		63520DC99287767A6073A0C7 /* Pods-Picsum Browser.production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Picsum Browser.production.xcconfig"; path = "Target Support Files/Pods-Picsum Browser/Pods-Picsum Browser.production.xcconfig"; sourceTree = "<group>"; };
+		AA192D08E6A2473E0D04A2C7 /* Pods-Picsum Browser.development.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Picsum Browser.development.xcconfig"; path = "Target Support Files/Pods-Picsum Browser/Pods-Picsum Browser.development.xcconfig"; sourceTree = "<group>"; };
+		B16EA56D4E8873489BFC7D39 /* Pods_Picsum_Browser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Picsum_Browser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +58,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D98BC7BB91D3039470DD6088 /* Pods_Picsum_Browser.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4904E794D89FE3D280DE2A73 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B16EA56D4E8873489BFC7D39 /* Pods_Picsum_Browser.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5816723A26B9B0A30060AB22 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				585D32EF26B94AC700C31F77 /* APITaskManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
 		585D32BA26B8F9B400C31F77 = {
 			isa = PBXGroup;
 			children = (
 				585D32C526B8F9B400C31F77 /* Picsum Browser */,
 				585D32C426B8F9B400C31F77 /* Products */,
+				F033A1AE4B8342412A6192A7 /* Pods */,
+				4904E794D89FE3D280DE2A73 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +102,172 @@
 		585D32C526B8F9B400C31F77 /* Picsum Browser */ = {
 			isa = PBXGroup;
 			children = (
-				585D32C626B8F9B400C31F77 /* AppDelegate.swift */,
-				585D32C826B8F9B400C31F77 /* SceneDelegate.swift */,
-				585D32CA26B8F9B400C31F77 /* ViewController.swift */,
-				585D32CC26B8F9B400C31F77 /* Main.storyboard */,
-				585D32CF26B8F9B700C31F77 /* Assets.xcassets */,
-				585D32D126B8F9B700C31F77 /* LaunchScreen.storyboard */,
+				585D32E726B945F400C31F77 /* AppDelegate */,
+				585D32E826B9462100C31F77 /* View */,
+				585D32FA26B94FCE00C31F77 /* ViewModel */,
+				585D32F826B94FB800C31F77 /* Repository */,
+				585D32EE26B947CC00C31F77 /* Network Layer */,
+				585D32ED26B9479300C31F77 /* Model */,
+				585D32EB26B9468E00C31F77 /* Resources */,
+				585D32F126B94B4E00C31F77 /* Utilities */,
 				585D32D426B8F9B700C31F77 /* Info.plist */,
 			);
 			path = "Picsum Browser";
+			sourceTree = "<group>";
+		};
+		585D32DA26B904DE00C31F77 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				585D32DD26B9052300C31F77 /* PicsumCollectionViewCell.swift */,
+				585D32DE26B9052300C31F77 /* PicsumCollectionViewCell.xib */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		585D32E126B9077000C31F77 /* Business Object */ = {
+			isa = PBXGroup;
+			children = (
+				585D32E226B9078C00C31F77 /* PicsumDataBO.swift */,
+			);
+			path = "Business Object";
+			sourceTree = "<group>";
+		};
+		585D32E426B90E0600C31F77 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				585D32E526B90E2A00C31F77 /* UICollectionViewCell.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		585D32E726B945F400C31F77 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				585D32C626B8F9B400C31F77 /* AppDelegate.swift */,
+				585D32C826B8F9B400C31F77 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		585D32E826B9462100C31F77 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				585D32E926B9463000C31F77 /* ViewController */,
+				585D32EA26B9464800C31F77 /* Storyboard */,
+				585D32DA26B904DE00C31F77 /* CollectionViewCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		585D32E926B9463000C31F77 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				585D32CA26B8F9B400C31F77 /* HomeViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		585D32EA26B9464800C31F77 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				585D32D126B8F9B700C31F77 /* LaunchScreen.storyboard */,
+				585D32CC26B8F9B400C31F77 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		585D32EB26B9468E00C31F77 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				585D32EC26B946A400C31F77 /* Assets */,
+				585D32F526B94CC000C31F77 /* Build Config */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		585D32EC26B946A400C31F77 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				585D32CF26B8F9B700C31F77 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		585D32ED26B9479300C31F77 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				585D32E126B9077000C31F77 /* Business Object */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		585D32EE26B947CC00C31F77 /* Network Layer */ = {
+			isa = PBXGroup;
+			children = (
+				5816723A26B9B0A30060AB22 /* Manager */,
+				585D32F926B94FC100C31F77 /* Service */,
+			);
+			path = "Network Layer";
+			sourceTree = "<group>";
+		};
+		585D32F126B94B4E00C31F77 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				585D32F226B94B7E00C31F77 /* Constants */,
+				585D32E426B90E0600C31F77 /* Extensions */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		585D32F226B94B7E00C31F77 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				585D32F326B94B8B00C31F77 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		585D32F526B94CC000C31F77 /* Build Config */ = {
+			isa = PBXGroup;
+			children = (
+				585D32F626B94CDF00C31F77 /* Build Configuration.swift */,
+				585D330126B958A400C31F77 /* Development.xcconfig */,
+				585D330326B9598000C31F77 /* Production.xcconfig */,
+			);
+			path = "Build Config";
+			sourceTree = "<group>";
+		};
+		585D32F826B94FB800C31F77 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				585D32FB26B9505400C31F77 /* PicsumDataRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		585D32F926B94FC100C31F77 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				585D32FD26B9506400C31F77 /* PicsumDataService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		585D32FA26B94FCE00C31F77 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				585D32FF26B9507C00C31F77 /* PicsumDataViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F033A1AE4B8342412A6192A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA192D08E6A2473E0D04A2C7 /* Pods-Picsum Browser.development.xcconfig */,
+				63520DC99287767A6073A0C7 /* Pods-Picsum Browser.production.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +277,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 585D32D726B8F9B700C31F77 /* Build configuration list for PBXNativeTarget "Picsum Browser" */;
 			buildPhases = (
+				3AB3BBFECB9336499D559BFA /* [CP] Check Pods Manifest.lock */,
 				585D32BF26B8F9B400C31F77 /* Sources */,
 				585D32C026B8F9B400C31F77 /* Frameworks */,
 				585D32C126B8F9B400C31F77 /* Resources */,
+				D041CD0139A49EB19BD48634 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,21 +330,74 @@
 			buildActionMask = 2147483647;
 			files = (
 				585D32D326B8F9B700C31F77 /* LaunchScreen.storyboard in Resources */,
+				585D32E026B9052300C31F77 /* PicsumCollectionViewCell.xib in Resources */,
 				585D32D026B8F9B700C31F77 /* Assets.xcassets in Resources */,
 				585D32CE26B8F9B400C31F77 /* Main.storyboard in Resources */,
+				585D330226B958A400C31F77 /* Development.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3AB3BBFECB9336499D559BFA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Picsum Browser-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D041CD0139A49EB19BD48634 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Picsum Browser/Pods-Picsum Browser-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Picsum Browser/Pods-Picsum Browser-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Picsum Browser/Pods-Picsum Browser-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		585D32BF26B8F9B400C31F77 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				585D32CB26B8F9B400C31F77 /* ViewController.swift in Sources */,
+				585D32E326B9078C00C31F77 /* PicsumDataBO.swift in Sources */,
+				585D32F726B94CDF00C31F77 /* Build Configuration.swift in Sources */,
+				585D32CB26B8F9B400C31F77 /* HomeViewController.swift in Sources */,
+				585D32DF26B9052300C31F77 /* PicsumCollectionViewCell.swift in Sources */,
+				585D32FC26B9505400C31F77 /* PicsumDataRepository.swift in Sources */,
+				585D32F026B94AC700C31F77 /* APITaskManager.swift in Sources */,
+				585D32E626B90E2A00C31F77 /* UICollectionViewCell.swift in Sources */,
 				585D32C726B8F9B400C31F77 /* AppDelegate.swift in Sources */,
 				585D32C926B8F9B400C31F77 /* SceneDelegate.swift in Sources */,
+				585D32F426B94B8B00C31F77 /* Constants.swift in Sources */,
+				585D32FE26B9506400C31F77 /* PicsumDataService.swift in Sources */,
+				585D330026B9507C00C31F77 /* PicsumDataViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,8 +423,9 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		585D32D526B8F9B700C31F77 /* Debug */ = {
+		585D32D526B8F9B700C31F77 /* Development */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 585D330126B958A400C31F77 /* Development.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -224,10 +483,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
-			name = Debug;
+			name = Development;
 		};
-		585D32D626B8F9B700C31F77 /* Release */ = {
+		585D32D626B8F9B700C31F77 /* Production */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 585D330326B9598000C31F77 /* Production.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -279,10 +539,11 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = Production;
 		};
-		585D32D826B8F9B700C31F77 /* Debug */ = {
+		585D32D826B8F9B700C31F77 /* Development */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA192D08E6A2473E0D04A2C7 /* Pods-Picsum Browser.development.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -298,10 +559,11 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-			name = Debug;
+			name = Development;
 		};
-		585D32D926B8F9B700C31F77 /* Release */ = {
+		585D32D926B8F9B700C31F77 /* Production */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63520DC99287767A6073A0C7 /* Pods-Picsum Browser.production.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -317,7 +579,7 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-			name = Release;
+			name = Production;
 		};
 /* End XCBuildConfiguration section */
 
@@ -325,20 +587,20 @@
 		585D32BE26B8F9B400C31F77 /* Build configuration list for PBXProject "Picsum Browser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				585D32D526B8F9B700C31F77 /* Debug */,
-				585D32D626B8F9B700C31F77 /* Release */,
+				585D32D526B8F9B700C31F77 /* Development */,
+				585D32D626B8F9B700C31F77 /* Production */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Production;
 		};
 		585D32D726B8F9B700C31F77 /* Build configuration list for PBXNativeTarget "Picsum Browser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				585D32D826B8F9B700C31F77 /* Debug */,
-				585D32D926B8F9B700C31F77 /* Release */,
+				585D32D826B8F9B700C31F77 /* Development */,
+				585D32D926B8F9B700C31F77 /* Production */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Production;
 		};
 /* End XCConfigurationList section */
 	};
