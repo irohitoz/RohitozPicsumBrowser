@@ -16,27 +16,37 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Picsum Browser" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v58-DA-TYn">
-                                <rect key="frame" x="57" y="368" width="300" height="160"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K9N-C4-I6z">
+                                <rect key="frame" x="47" y="368" width="320" height="160"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Picsum Browser" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v58-DA-TYn">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="160"/>
+                                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="60"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="160" id="AcL-WT-WCw"/>
-                                    <constraint firstAttribute="width" constant="300" id="zXJ-og-Ggc"/>
+                                    <constraint firstAttribute="width" constant="320" id="79W-5F-KWu"/>
+                                    <constraint firstAttribute="bottom" secondItem="v58-DA-TYn" secondAttribute="bottom" id="Da6-H4-ZBM"/>
+                                    <constraint firstAttribute="height" constant="160" id="Rl4-Pj-KbP"/>
+                                    <constraint firstAttribute="trailing" secondItem="v58-DA-TYn" secondAttribute="trailing" id="X7a-8W-d2D"/>
+                                    <constraint firstItem="v58-DA-TYn" firstAttribute="top" secondItem="K9N-C4-I6z" secondAttribute="top" id="wuu-ai-FDP"/>
+                                    <constraint firstItem="v58-DA-TYn" firstAttribute="leading" secondItem="K9N-C4-I6z" secondAttribute="leading" id="y1N-MP-07I"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="60"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="v58-DA-TYn" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="O2w-dp-xh6"/>
-                            <constraint firstItem="v58-DA-TYn" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="O9y-fa-e0w"/>
+                            <constraint firstItem="K9N-C4-I6z" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="AfZ-hc-bVO"/>
+                            <constraint firstItem="K9N-C4-I6z" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="x00-yu-vn1"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
         </scene>
     </scenes>
     <resources>

@@ -8,6 +8,10 @@
 import Foundation
 import SwiftyJSON
 
+var kBaseServiceUrl: String {
+    return Environment().configuration(Plist.baseUrl)
+}
+
 class APITaskManager: NSObject {
     static let shared = APITaskManager()
     func serviceRequest(baseUrl: String, completionHandler: @escaping ([Picsum]) -> Void) {

@@ -18,7 +18,6 @@ struct Picsum : Codable {
         case id = "id"
         case author = "author"
     }
-
     
     init(json: JSON){
         self.id = json["id"].intValue
